@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fill form</title>
+
+    <link rel="stylesheet" href="index.css"/>
+
+</head>
+<body>
+    <div class="form-system">
+        <h2>Fill form</h2>
+        <form action="submit-form" method="post">
+         <label for="name">Name:</label> 
+        
+         <input type="text" id="name" placeholder="Enter Name" name="name" required> 
+         <br>
+         <label for="email">Email:</label>
+         <br>
+         <input type="email" id="email"  placeholder=" Enter Email" name="email" required>
+         <br>
+         <label for="password">Password</label>
+         <br>
+         <input type="password" id="password"  placeholder="Enter password" name="password" required>
+         <br> 
+         <label >Gender</label>
+         <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            
+         </div>
+         <div>
+            <label for="female">Female</label>
+            <input type="radio" id="female"  name="gender" value="female" required>
+            
+         </div>
+         <label for="state">State:</label>
+         <select id="state" name="state" required>
+            <option value>select state</option>
+            <option value="jharkhand">Jharkhand</option>
+            <option value="madhya pradesh"> Madhya Pradesh</option>
+            <option value="bihar">Bihar</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="odisha">Odisha</option>
+            <option value="goa"> Goa</option>
+            <option value="haryana">Haryana</option>
+            <option value="punjab">Punjab</option>
+            <option value="other">Other</option>
+
+         </select>
+          <br>
+         <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
