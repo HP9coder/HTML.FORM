@@ -53,3 +53,14 @@ body{
     padding:10px;
    
 } 
+
+.hasnain{
+    
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+}
+
+.hasnain h1{
+    color: red;
+}
